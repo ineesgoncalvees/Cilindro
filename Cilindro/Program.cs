@@ -23,7 +23,7 @@ namespace Cilindro {
             a = Convert.ToInt32(area);
             r = Convert.ToInt32(raio);
 
-            v = Math.PI * r * r * a;
+            v = Math.PI * Math.Pow(r, 2) * a;
             sa = 2 * Math.PI * r * (r + a);
 
             Console.WriteLine("Volume:" + v);
